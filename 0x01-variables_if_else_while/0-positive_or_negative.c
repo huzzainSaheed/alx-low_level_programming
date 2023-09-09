@@ -3,12 +3,11 @@
 #include <time.h>
 
 /**
+ * main - Entry point
  *
- * main - Entry Point
+ * Description: Conditional to check if a number is positive, zero or negative.
  *
- * Description: Conditional to check if number is positive, zero or negative.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -23,7 +22,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n);
+		prinf("%d is zero\n", n);
 	}
 	else
 	{
