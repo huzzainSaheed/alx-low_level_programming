@@ -1,10 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+
 /**
- * main - genrate random numbers to detect -ve or +ve
  *
- * Return: always (0)
+ * main - Entry Point
  *
+ * Description: Conditional to check if number is positive, zero or negative.
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
