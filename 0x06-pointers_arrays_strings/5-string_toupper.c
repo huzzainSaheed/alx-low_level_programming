@@ -3,18 +3,19 @@
  * string_toupper - change lowercase letters to uppercase.
  * @s: analized string.
  *
- * Return: string with all letters Uppercased.
+ * Return: string with all letters uppercased.
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (*(s + i) != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			str[i] = str[i] - 32;
+			*(s + i) = *(s + i) - 32;
 		}
+		i++;
 	}
-	return (str);
+	return (s);
 }
