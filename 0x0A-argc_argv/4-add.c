@@ -3,8 +3,8 @@
 #include <ctype.h>
 /**
  * main - add positive numbers
- * @argc: number of command line arg..
- * @argv: array that contain the program command line arg
+ * @argc: number of command line aruments
+ * @argv: array that contain the program command line argument
  * Return: (0)
  */
 int main(int argc, char *argv[])
