@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
  * main - add positive numbers
- * @argc: number of command line aruments
- * @argv: array that contain the program command line argument
+ * @argc: number of command lie arg..
+ * @argv: array that contains the pragramn command line arg..
  * Return: (0)
  */
 int main(int argc, char *argv[])
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
 		{
 			if (!isdigit(argv[i][j]))
 			{
-				printf("error\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
