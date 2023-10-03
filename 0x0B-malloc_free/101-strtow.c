@@ -16,10 +16,13 @@ void ch_free_grid(char **grid, size_t height)
 	}
 }
 /**
- * strtow - splits string into two
- * @str - string with words to be splited
+ * strtow - Splits a string into words.
+ * @str: The string to be split.
  *
- * Return: a pointer to the new allocated memoryy for the string
+ * This function takes a string as input and splits it into words, returning an
+ * array of strings where each element is a word from the input string.
+ *
+ * Return: A pointer to an array of strings (words).
  */
 char **strtow(char *str)
 {
