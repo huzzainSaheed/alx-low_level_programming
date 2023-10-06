@@ -6,7 +6,7 @@
 #define ERR_MSG "Error"
 
 /**
- * isdigit - checks if a string contains a non-digit char
+ * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
  *
  * Return: 0 if a non-digit is found, 1 otherwise
@@ -49,7 +49,7 @@ void errors(void)
 	exit(98);
 }
 /**
- * !isdigit - multiplies two positive numbers
+ * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: always 0 (Success)
